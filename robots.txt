@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://erensolutions.rs/sitemap.xml
