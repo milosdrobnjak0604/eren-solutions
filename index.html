@@ -57,6 +57,7 @@
                     <li><a href="#usluge">Usluge</a></li>
                     <li><a href="#cenovnik">Cenovnik</a></li>
                     <li><a href="#o-nama">O nama</a></li>
+                    <li><a href="#partneri">Partneri</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
@@ -292,6 +293,132 @@
                             <button type="submit" class="btn btn--primary btn--block">Pošalji poruku</button>
                             <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
                         </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section--alt partner" id="partneri" aria-labelledby="partner-program-title">
+            <div class="container">
+                <h2 id="partner-program-title" class="section__title reveal">Zaradite preporučujući nas</h2>
+                <p class="section__lead reveal">Podelite svoj link, dovedite klijenta i zaradite 10% od vrednosti projekta
+                    — odmah nakon uplate.</p>
+                <div class="grid grid--partner-steps">
+                    <div class="why-item reveal">
+                        <div class="why-item__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" width="40" height="40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 14h-3a4 4 0 100 8h3m6-8h3a4 4 0 110 8h-3" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M17 18h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h4 class="why-item__title">Generišite svoj link</h4>
+                        <p class="why-item__text">Upišite vaš nadimak ili ime brenda i jednim klikom dobijate jedinstveni
+                            referral link.</p>
+                    </div>
+                    <div class="why-item reveal">
+                        <div class="why-item__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" width="40" height="40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="10" cy="20" r="3" stroke="currentColor" stroke-width="2" />
+                                <path d="M13 20h8l4-8M21 20l6 10" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="30" cy="12" r="3" stroke="currentColor" stroke-width="2" />
+                                <circle cx="30" cy="28" r="3" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <h4 class="why-item__title">Podelite ga</h4>
+                        <p class="why-item__text">Podelite link na društvenim mrežama, u poruci ili emailu — svako ko
+                            klikne biće vezan za vas.</p>
+                    </div>
+                    <div class="why-item reveal">
+                        <div class="why-item__icon" aria-hidden="true">
+                            <svg viewBox="0 0 40 40" width="40" height="40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 14h24v18a2 2 0 01-2 2H10a2 2 0 01-2-2V14z" stroke="currentColor"
+                                    stroke-width="2" stroke-linejoin="round" />
+                                <path d="M8 14v-2a8 8 0 0116 0v2" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M16 22h12M16 26h8" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h4 class="why-item__title">Naplatite 10%</h4>
+                        <p class="why-item__text">Čim klijent uplati projekat, vi dobijate 10% od ukupnog iznosa. Bez
+                            čekanja, bez komplikacija.</p>
+                    </div>
+                </div>
+                <div class="partner-earnings reveal">
+                    <h3 class="partner-earnings__title" id="partner-earnings-title">Koliko možete zaraditi?</h3>
+                    <div class="partner-table-wrap" role="region" aria-labelledby="partner-earnings-title">
+                        <table class="partner-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Usluga</th>
+                                    <th scope="col">Vrednost projekta</th>
+                                    <th scope="col">Vaša zarada</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-label="Usluga">Landing page / Web stranica</td>
+                                    <td data-label="Vrednost projekta">od 300€</td>
+                                    <td data-label="Vaša zarada">30€</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Usluga">Web aplikacija</td>
+                                    <td data-label="Vrednost projekta">od 600€</td>
+                                    <td data-label="Vaša zarada">60€</td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Usluga">Vođenje društvenih mreža</td>
+                                    <td data-label="Vrednost projekta">150€/mesečno</td>
+                                    <td data-label="Vaša zarada">15€/mesečno</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="partner-table-note">Za mesečne usluge primate 10% svaki mesec dok klijent aktivno koristi
+                        uslugu.</p>
+                </div>
+                <div class="partner-generator-wrap reveal">
+                    <div class="partner-generator">
+                        <h3 class="partner-generator__title">Kreirajte vaš referral link</h3>
+                        <p class="partner-generator__desc">Upišite vaš nadimak ili ime — može biti bilo šta (ime, brend,
+                            Instagram naziv).</p>
+                        <label class="field partner-generator__field">
+                            <span class="field__label">Vaš identifikator</span>
+                            <input type="text" id="referralSlugInput" name="referral_slug" autocomplete="off"
+                                maxlength="30" placeholder="npr. marko, mojbrend, studio123"
+                                aria-describedby="referralPreviewHint referralValidationMsg">
+                        </label>
+                        <p class="referral-preview" id="referralPreviewHint">
+                            <span class="referral-preview__base">eren-solutions.rs/?ref=</span><span
+                                class="referral-preview__slug referral-preview__slug--placeholder"
+                                id="referralPreviewSlug"></span>
+                        </p>
+                        <p class="partner-generator__error" id="referralValidationMsg" role="alert" aria-live="polite">
+                        </p>
+                        <button type="button" class="btn btn--primary btn--block partner-generator__submit"
+                            id="referralGenerateBtn" disabled>Generiši moj link</button>
+                        <div class="referral-result" id="referralResult" hidden>
+                            <div class="referral-result__header">
+                                <span class="referral-result__check" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
+                                        <path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                <p class="referral-result__msg">Vaš referral link je spreman!</p>
+                            </div>
+                            <div class="referral-result__row">
+                                <div class="referral-result__linkbox" id="referralResultLink" tabindex="0"></div>
+                                <button type="button" class="btn btn--outline referral-result__copy"
+                                    id="referralCopyBtn">Kopiraj link</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
